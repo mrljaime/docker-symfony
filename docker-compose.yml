@@ -1,0 +1,12 @@
+version: '3'
+services:
+    principal:
+        image: "jaimeramirezc/investandearn:beta"
+        container_name: "invest-and-earn"
+        tty: true
+        ports:
+         - "127.0.0.1:15001:80"
+         - "127.0.0.1:3307:3306"
+        volumes:
+         - ./investandearn.conf:/etc/apache2/sites-enabled/investandearn.conf 
+         - ./investandearn:/var/www/investandearn
