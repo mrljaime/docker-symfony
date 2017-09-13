@@ -10,3 +10,4 @@ services:
         volumes:
          - ./investandearn.conf:/etc/apache2/sites-enabled/investandearn.conf 
          - ./investandearn:/var/www/investandearn
+         - ./mariadb:/var/lib/mysql
