@@ -1,7 +1,7 @@
 After clone this repository.
 
 Clone the source repository.
-* `git clone <repo> investandearn`
+* `git clone <repo> alias`
 
 Run command to start containers
 * `docker-compose up -d`
