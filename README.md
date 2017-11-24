@@ -12,6 +12,6 @@ the services to have a running project
 * `docker exec -it invest-and-earn /bin/bash`
     * `service apache2 start`
     * `service mysql start`
-    * `cd /var/www/investandearn`
+    * `cd /path/to/repo
     * `composer update`
     
